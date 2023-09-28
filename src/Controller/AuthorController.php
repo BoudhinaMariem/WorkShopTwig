@@ -1,8 +1,3 @@
-
-Mariem BOUDHINA <mariem.boudhina@esprit.tn>
-21:55 (il y a 16 minutes)
-À moi
-
 <?php
 
 namespace App\Controller;
@@ -13,6 +8,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class AuthorController extends AbstractController
 {
+
     #[Route('/author', name: 'app_author')]
     public $authors = [
         [
