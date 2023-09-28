@@ -18,6 +18,7 @@ class AuthorController extends AbstractController
             'email' => 'victor.hugo@gmail.com',
             'nb_books' => 100,
         ],
+
         [
             'id' => 2,
             'picture' => '/images/william-shakespeare.jpg',
@@ -25,6 +26,7 @@ class AuthorController extends AbstractController
             'email' => 'william.shakespeare@gmail.com',
             'nb_books' => 200,
         ],
+
         [
             'id' => 3,
             'picture' => '/images/Taha_Hussein.jpg',
@@ -58,5 +60,7 @@ public function authorDetails(int $id)
         'author' => $author,
         
     ]);
+
 }
+
 }
